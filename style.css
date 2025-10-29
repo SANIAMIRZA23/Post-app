@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(135deg, #a8c0ff, #3f2b96);
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+}
+
+#signUpFormContainer {
+  margin: 0 auto !important;
+  margin-top: 50px !important;
+  max-width: 30rem;
+}
+
+.text {
+  color: #11414d !important;
+}
+
+.bg-color {
+  background-color: #3f2b96 !important;
+}
+
+.hidden {
+  display: none;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+* {
+  font-family: RobotoSlab;
+}
+
+.logo {
+  width: 85px;
+  height: 85px;
+}
+
+.navbar {
+  background: linear-gradient(135deg, #3f2b96, #5c73f2) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #e8e8e8;
+}
+
+.profile-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+  transition: 0.3s;
+}
+
+.profile-photo:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  border-radius: 12px !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+}
+
+.postBtn,
+.editBtn {
+  background: linear-gradient(135deg, #3f2b96, #5c73f2);
+  color: #fff;
+  border: none;
+  transition: 0.3s;
+}
+
+.postBtn:hover,
+.editBtn:hover {
+  background: #fff;
+  color: #3f2b96;
+  border: 2px solid #3f2b96;
+}
+
+.deleteBtn:hover {
+  background: #fff;
+  color: #dc3545;
+  border: 2px solid #dc3545;
+}
+
+.images {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bg-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.bg-img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 6px rgba(63, 43, 150, 0.5);
+}
+
+.selectedImg {
+  border: 3px solid #3f2b96;
+}
+
+.name-time {
+  font-weight: bold;
+  margin-left: 8px;
+  color: #333;
+}
+
+.time {
+  font-size: 12px;
+  color: #666;
+}
+
+.swal2-confirm {
+  background-color: #3f2b96 !important;
+}
