@@ -135,3 +135,151 @@ body {
 .swal2-confirm {
   background-color: #3f2b96 !important;
 }
+
+
+body {
+    background-color: #dcdee1;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px 0;
+}
+
+#signUpFormContainer {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 30rem;
+}
+
+#signUpFormContainer:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+#signUpFormContainer h2 {
+    font-weight: 600;
+    color: #322d4d;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+label {
+    font-weight: 500;
+    color: #444;
+}
+
+input.form-control,
+textarea.form-control {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border 0.2s ease;
+    box-shadow: 0.2s ease;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+    border-color: #485e76;
+    box-shadow: 0 0 4px rgba(147, 197, 249, 0.5);
+}
+
+.form-check-label {
+    color: #555;
+}
+
+.bg-color {
+    background-color: #3b536c;
+    border: none;
+    color: #fff !important;
+    transition: all 0.3s ease;
+}
+
+.bg-color:hover {
+    background-color: #546577;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    #signUpFormContainer {
+        width: 90% !important;
+        padding: 20px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.post-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.fade {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.fade.show {
+    opacity: 1;
+}
+
+#exampleFormControlInput1,
+#exampleFormControlTextarea1 {
+    display: block;
+    width: 30rem;
+    max-width: 90%;
+    margin: 10px auto;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#exampleFormControlInput1:focus,
+#exampleFormControlTextarea1:focus {
+    border-color: #485e76;
+    box-shadow: 0 0 6px rgba(72, 94, 118, 0.3);
+    outline: none;
+}
+
+#exampleFormControlInput1::placeholder,
+#exampleFormControlTextarea1::placeholder {
+    color: #888;
+    font-style: italic;
+}
